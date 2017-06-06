@@ -1,15 +1,17 @@
 author: mongoose-os
-name: c-arduino-wire
-description: Arduino Wire C app
-# arch: PLATFORM
+description: Arduino Wire API usage example on Mongoose OS (C/C++)
 version: 1.0
-skeleton_version: 2017-05-18
+
 sources:
   - src
 filesystem:
   - fs
 libs:
   - origin: https://github.com/mongoose-os-libs/arduino-wire
+
 tags:
   - c
-  - arduino-wire
+  - arduino
+  - arduino-core
+
+skeleton_version: 2017-05-18
