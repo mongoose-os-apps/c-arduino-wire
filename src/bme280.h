@@ -8,6 +8,9 @@
  *            datasheets/BST-BME280_DS001-11.pdf
  */
 
+#ifndef CS_MOS_APPS_C_ARDUINO_WIRE_SRC_BME280_H_
+#define CS_MOS_APPS_C_ARDUINO_WIRE_SRC_BME280_H_
+
 #include <Wire.h>
 
 // Wire handle
@@ -72,3 +75,7 @@ bool init(void);
 float getTemp(void);
 float getHumi(void);
 float getPress(void);
+
+/* no_extern_c_check */
+
+#endif /* CS_MOS_APPS_C_ARDUINO_WIRE_SRC_BME280_H_ */
