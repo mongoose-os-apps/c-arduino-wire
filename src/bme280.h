@@ -1,11 +1,18 @@
 /*
- * Copyright (c) 2014-2017 Cesanta Software Limited
+ * Copyright (c) 2014-2018 Cesanta Software Limited
  * All rights reserved
  *
- * This Arduino like Wire library example shows how can use
- * the BOSCH BME280 combined humidity and pressure sensor.
- * Datasheet: https://ae-bst.resource.bosch.com/media/_tech/media/
- *            datasheets/BST-BME280_DS001-11.pdf
+ * Licensed under the Apache License, Version 2.0 (the ""License"");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an ""AS IS"" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
 
 #ifndef CS_MOS_APPS_C_ARDUINO_WIRE_SRC_BME280_H_
